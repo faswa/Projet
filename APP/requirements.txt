@@ -1,3 +1,4 @@
+pip
 streamlit
 leafmap.foliumap
 os
