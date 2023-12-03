@@ -54,7 +54,7 @@ fonttools==4.45.1
 fpdf==1.7.2
 fqdn==1.5.1
 future==0.18.3
-GDAL
+GDAL @ https://raw.githubusercontent.com/faswa/Projet/main/APP/GDAL-3.4.3-cp311-cp311-win_amd64.whl
 gdown==4.7.1
 geemap==0.29.5
 geocoder==1.38.1
