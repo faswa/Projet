@@ -9,7 +9,7 @@ from shapely.geometry import Point
 st.title("Exploration Géographique : Recherche et Visualisation cartographique de Points Géographiques")
 
 # Charger le fichier GeoParquet
-gdf = gpd.read_parquet("pages/DATA.parquet")
+gdf = gpd.read_parquet("APP/pages/DATA.parquet")
 
 # Widget pour saisir les coordonnées
 coord_input = st.text_input("Entrez les coordonnées (latitude, longitude) :", "")
