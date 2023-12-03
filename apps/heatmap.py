@@ -6,7 +6,7 @@ import os
 # Charger les images de carte pour une date spécifique et un phénomène donné
 def load_map(date, phenomenon, day_offset):
     # Générer le chemin du fichier en fonction du phénomène et de l'offset du jour
-    path = f"cartes intepolees_cog/{date}_{phenomenon}_{day_offset}_cog.tif"
+    path = f"apps/cartes intepolees_cog/{date}_{phenomenon}_{day_offset}_cog.tif"
     
     try:
         # Vérifier si le fichier existe
