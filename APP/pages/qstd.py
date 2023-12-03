@@ -12,8 +12,8 @@ m = leafmap.Map(height=600, center=[39.4948, -108.5492], zoom=12)
 def load_map(date, phenomenon, day_offset):
     try:
         # Générer les chemins des fichiers en fonction de la date, du phénomène et de l'offset du jour
-        path1 = f"pages/cartes intepolees/{date}_{phenomenon}_{day_offset}.tif"
-        path2 = f"pages/cartes intepolees/{date}_{phenomenon}_{day_offset-1}.tif"
+        path1 = f"APP/pages/cartes interpolees/{date}_{phenomenon}_{day_offset}.tif"
+        path2 = f"APP/pages/cartes interpolees/{date}_{phenomenon}_{day_offset-1}.tif"
         
         # Vérifier si les fichiers existent
         if os.path.exists(path1) and os.path.exists(path2):
