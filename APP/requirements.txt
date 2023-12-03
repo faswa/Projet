@@ -2,7 +2,6 @@ streamlit
 leafmap
 rasterio
 numpy
-base64
 imageio
 folium
 geopandas
